@@ -2,11 +2,11 @@
  Implementation of the batch Least Squares Method 
 
 # README: Determining Resistance of an Electrical Component using Ohm's Law
-Overview
+
 In this code, we aim to determine the resistance of an electrical component using Ohm's law, which relates voltage (V) and current (I) through the formula V = RI. We have collected data on the voltage and current values for the component and wish to fit a line through the origin to find the best estimate of the resistance (R) in ohms.
 
 ## Prerequisites
-To run this code, you will need the following Python libraries installed:
+To run this code, these Python libraries must be installed:
 
 numpy
 matplotlib
@@ -18,7 +18,7 @@ Current (I) values: [0.2, 0.3, 0.4, 0.5, 0.6] amperes
 Voltage (V) values: [1.23, 1.38, 2.06, 2.47, 3.17] volts
 
 ## Code Description
-It begins by importing the necessary libraries: numpy for numerical computations, matplotlib for plotting.
+It begins by importing the necessary libraries: numpy for numerical computations and matplotlib for plotting.
 
 The current (I) and voltage (V) data are stored as column vectors.
 
@@ -46,4 +46,3 @@ For more accurate results, additional data points and a more robust regression a
 
 If the current (I) values are close to zero or too small, there might be errors in the estimation, and the data points may need to be scaled or transformed accordingly.
 
-Always verify the results and consider any other factors that may affect the resistance of the electrical component.
