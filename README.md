@@ -8,12 +8,14 @@ In this code, we aim to determine the resistance of an electrical component usin
 To run this code, these Python libraries must be installed:
 
 numpy
+
 matplotlib
 
 ## Data
 We have collected the following data for the electrical component:
 
 Current (I) values: [0.2, 0.3, 0.4, 0.5, 0.6] amperes
+
 Voltage (V) values: [1.23, 1.38, 2.06, 2.47, 3.17] volts
 
 ## Code Description
