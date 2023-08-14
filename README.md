@@ -1,7 +1,6 @@
-# Least-Squares
- Implementation of the batch Least Squares Method 
-
-# README: Determining Resistance of an Electrical Component using Ohm's Law
+# Implementation of the batch Least Squares Method 
+Least squares estimation aims to find the parameters of a mathematical model that minimize the sum of the squared differences between the observed data (measurements) and the model's predictions. 
+# Determining Resistance of an Electrical Component using Ohm's Law
 
 In this code, we aim to determine the resistance of an electrical component using Ohm's law, which relates voltage (V) and current (I) through the formula V = RI. We have collected data on the voltage and current values for the component and wish to fit a line through the origin to find the best estimate of the resistance (R) in ohms.
 
